@@ -1,0 +1,80 @@
+body, div, h1, h3, ul, li, article {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(98, 190, 152);
+}
+
+h1 {
+  font-family: 'Saira Stencil One', cursive;
+  font-size: 20px;
+  text-shadow: 2px 2px grey;
+  text-align: center;
+}
+
+.clock-box {
+  padding: 30px;
+  width: 300px;
+  background-color: lightyellow;
+  border: 2px solid black;
+  font-family: 'Saira Stencil One', cursive;
+}
+.time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: white; */
+  /* border: 2px black solid; */
+}
+
+.inactive {
+  /* padding: 5px 28px; */
+  width: 100%;
+  list-style: none;
+  border: 2px black solid;
+  border-radius: 10px 10px 0 0;
+  background-color: whitesmoke;
+}
+
+.active {
+  width: 100%;
+  list-style: none;
+  border: 2px black solid;
+  border-radius: 10px 10px 0 0;
+  background-color: rgba(189, 181, 181, 0.591);
+  color: whitesmoke;
+  text-shadow: 2px 2px black;
+}
+
+article {
+  width: 100%;
+  height: 200px;
+  border: solid black 2px;
+  border-top: none;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
